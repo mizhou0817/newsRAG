@@ -8,7 +8,6 @@ except ImportError:
     conf = import_module("src.configs.config")
 from src.llms.base import BaseLLM
 
-
 class Qwen_7B_Chat(BaseLLM):
     def __init__(self, model_name='qwen_7b', temperature=1.0, max_new_tokens=1024):
         super().__init__(model_name, temperature, max_new_tokens)

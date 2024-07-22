@@ -5,7 +5,6 @@ from typing import Any
 
 from src.datasets.base import BaseDataset
 
-
 class Xinhua(BaseDataset):
     def __init__(self, data, shuffle: bool = False, seed: int = 22):
         self.data = data

@@ -3,7 +3,6 @@ from abc import ABC, abstractmethod
 
 from loguru import logger
 
-
 class BaseLLM(ABC):
     def __init__(
             self, 

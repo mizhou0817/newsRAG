@@ -23,7 +23,6 @@ def bge_rerank_result(query_text: str, docs: List[str], top_n):
 
     return sorted_docs[:top_n]
 
-
 class EnsembleRerankRetriever(ABC):
     def __init__(
             self, 

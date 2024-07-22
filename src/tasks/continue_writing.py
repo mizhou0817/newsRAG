@@ -10,7 +10,6 @@ from src.metric.common import (
 )
 from src.metric.quest_eval import QuestEval
 
-
 class ContinueWriting(BaseTask):
     def __init__(
             self, 

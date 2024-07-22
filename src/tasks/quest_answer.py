@@ -123,11 +123,9 @@ class QuestAnswer1Doc(QuestAnswer):
     def __init__(self, output_dir: str = './output', use_quest_eval=False, use_bert_score=False):
         super().__init__(output_dir, use_quest_eval=use_quest_eval, use_bert_score=use_bert_score)
 
-
 class QuestAnswer2Docs(QuestAnswer):
     def __init__(self, output_dir: str = './output', use_quest_eval=False, use_bert_score=False):
         super().__init__(output_dir, use_quest_eval=use_quest_eval, use_bert_score=use_bert_score)
-
 
 class QuestAnswer3Docs(QuestAnswer):
     def __init__(self, output_dir: str = './output', use_quest_eval=False, use_bert_score=False):

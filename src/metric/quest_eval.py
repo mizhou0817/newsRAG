@@ -20,7 +20,6 @@ json_response = '''
 \"question\": ["2014年中国新增并网光伏发电容量是多少？", "2014年中国新增并网光伏发电容量约占全球新增容量的几分之几？","全国新增光伏电站的容量是多少？", "分布式光伏容量是多少？", "2014年中国光伏发电量是多少？", "2014年中国光伏发电量相比前一年增长了多少？"]}
 '''
 
-
 class QuestEval(GPT):
     def __init__(self, model_name='gpt-3.5-turbo', temperature=1.0, max_new_tokens=1024, report=False, task_name='summary'):
         super().__init__(model_name, temperature, max_new_tokens)
@@ -143,7 +142,6 @@ def compute_f1(a_gold, a_pred):
     recall = 1.0 * num_same / len(gold_toks)
     f1 = (2 * precision * recall) / (precision + recall)
     return f1
-
 
 def word_based_f1_score(a_gold_list, a_pred_list):
     f1_list=[]

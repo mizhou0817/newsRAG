@@ -1,3 +1,7 @@
+# @Author : Shichao Song
+# @Email  : song.shichao@outlook.com
+
+
 from typing import Callable
 
 import evaluate

@@ -10,7 +10,6 @@ from langchain.schema.embeddings import Embeddings
 
 from src.retrievers import BaseRetriever, CustomBM25Retriever
 
-
 class EnsembleRetriever(ABC):
     def __init__(
             self, 
