@@ -16,10 +16,10 @@ This repository contains an experimental benchmark for RAG systems' evaluation. 
 │   │   └── merged.json  # The complete datasets.
 │   │
 │   ├── crud_split
-│   │   └── split_merged.json # The dataset we used for experiments in the paper.
+│   │   └── split_merged.json
 │   │
 │   └── 80000_docs
-│   │    └── documents_dup_part... # More than 80,000 news documents, which are used to build the retrieval database of the RAG system.
+│   │    └── documents_dup_part... # Documents that are used to build the retrieval database of the RAG system.
 │   │     
 ├── src 
 │   ├── configs  # This folder comprises scripts used to initialize the loading parameters of the LLMs in RAG systems.
